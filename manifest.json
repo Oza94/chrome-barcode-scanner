@@ -1,0 +1,25 @@
+{
+  "name": "Barcode Scanner",
+  "description": "Barcode scanner emulator that uses webcam.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/barcode_16.png",
+      "32": "/images/barcode_32.png",
+      "48": "/images/barcode_48.png",
+      "128": "/images/barcode_128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/barcode_16.png",
+    "32": "/images/barcode_32.png",
+    "48": "/images/barcode_48.png",
+    "128": "/images/barcode_128.png"
+  }
+}
